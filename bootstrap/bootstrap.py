@@ -51,7 +51,7 @@ def grafica_violin(Datos):
 
 
 # Ruta al archivo de datos
-file_path = '/Users/romananselmomoragutierrez/Analisis_D_p/bootstrap/base_1.txt'
+file_path = '++++ poner ruta+++++'
 
 # Cargar datos desde el archivo
 datos = np.loadtxt(file_path)
@@ -60,7 +60,7 @@ datos = np.loadtxt(file_path)
 num_samples = 1000
 
 # Ruta para guardar el archivo de salida
-output_dir = '/Users/romananselmomoragutierrez/Documents/bootstrap/'
+output_dir = '++++ poner ruta+++++'
 file_path_output = os.path.join(output_dir, 'bootstrap_estimates_1.txt')
 
 # Crear el directorio de salida si no existe

@@ -3,8 +3,8 @@ import pandas as pd
 from scipy.stats import wilcoxon
 
 # Archivos
-file_path_1 = '/Users/romananselmomoragutierrez/Documents/bootstrap/bootstrap_estimates_1.txt'
-file_path = '/Users/romananselmomoragutierrez/Documents/bootstrap/bootstrap_estimates.txt'
+file_path_1 = '++++ poner ruta+++++'
+file_path = '++++ poner ruta+++++t'
 
 # Cargar datos con pandas y limpiar las comas
 datos = pd.read_csv(file_path, delimiter=',', header=None)
